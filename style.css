@@ -24,10 +24,8 @@ h2{
 }
 
 h4{
-    text-align: center;
+    
     padding: 15px 0;
-    color: white;
-  
     display: block;
     margin: 10px 0;
 
@@ -44,16 +42,16 @@ h5{
 .submit{
     color: white;
     background: green;
-    display: inline-block;
+    text-align: center;
     font-size: 15px;
-    padding: 5px;
+ 
 }
 .reset{
-    color: white;
+    color: green;
     background: green;
-    display: inline-block;
+   
     font-size: 15px;
-    padding: 5px;
+    align-items: center;
 }
 
 a{
@@ -122,7 +120,7 @@ small{
   
   .input_text{
     font-size: 30%;
-    padding: 30px;
+    /* padding: 30px; */
   }
   .big{
       padding:30px ;
@@ -135,58 +133,40 @@ small{
     width: 100%;
    color: rgb(0, 0, 0);
   }
-  .submit{
-  
+  .submit,.reset{
   color: rgb(68, 105, 138);
-  background-color: antiquewhite;
-  }
+  background-color: rgb(46, 207, 100) ;
+  height: 70px;
+  border-radius:10px ;
+  text-align: center;
+  font-size: 15px;
+    border-style: none;
+}
   input,textarea{
    padding:20px ;
    text-align: center;
-    width: 100%;
+    width: 700px;
+    height:10px ;
     background-color: #bccfcb;  
   }
-  
-  .insta{
-    object-fit: cover;
-    width: 40px;
-    height:40px;
-    
-  }
-  
-  .YT{
-     width: 40px;
-     height: 40px;
-     object-fit: cover;
-     margin-top: 20px;
-  }
-  
-  .twitter{
-     object-fit: cover;
-     width: 40px;
-  }
-  
-  .how:hover{
-     transform: scale(1.04);
-  }
-  .rbox{
-    text-align: center;
-  }
+
   input[type="submit"]{
-      
     background-color: rgb(46, 207, 100) ;
     color: rgb(219, 215, 215);
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: inherit;
     width: 100%;
     border: none;
   }
-  input[type="submit"]:hover{
+  input[type="submit"]:hover,input[type="reset"]:hover{
   
     background: rgb(121, 211, 31);
   } 
 
-
+.app{
+    height: 70px;
+    
+}
 
 
 
